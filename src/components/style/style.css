@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .App {
+  background-color: white;
+  box-shadow: 18px 25px 48px -28px rgba(0, 0, 0, 0.75);
+  height: 540px;
+  width: 780px;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: row;
+}
+body .App .result-section {
+  width: 290px;
+  text-align: center;
+  padding: 20px 50px;
+  height: 500px;
+  border-radius: 36px;
+  background: linear-gradient(142deg, rgb(120, 87, 255) 0%, rgb(46, 43, 233) 100%);
+}
+body .App .result-section h2 {
+  margin: 15px 0 10px;
+}
+body .App .result-section p {
+  margin: 0;
+  padding: 10px;
+}
+body .App .result-section h2,
+body .App .result-section h1 {
+  color: white;
+}
+body .App .result-section h3,
+body .App .result-section p {
+  color: hsl(241, 100%, 89%);
+}
+body .App .result-section h3 {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+body .App .result-section .circle {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(hsl(255, 71%, 46%), rgba(76, 34, 201, 0));
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+body .App .result-section .circle h1 {
+  font-size: 74px;
+  margin: 0;
+}
+body .App .result-section .circle p {
+  margin: 0;
+  padding: 0;
+}
+body .App .summary {
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 auto;
+}
+body .App .summary button {
+  background-color: hsl(224, 30%, 27%);
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+body .App .summary h3 {
+  font-size: 25px;
+  margin: 40px 0;
+}
+body .App .summary .scores-data {
+  padding: 15px 15px 15px 10px;
+  margin: 10px 0 18px;
+  border-radius: 5px;
+}
+body .App .summary .scores-data span {
+  font-size: 20px;
+  font-weight: 700;
+}
+body .App .summary .scores-data .category {
+  margin-left: 20px;
+}
+body .App .summary .score {
+  float: right;
+  color: hsl(224, 30%, 27%);
+}
+body .App .summary .out-of {
+  color: hsla(0, 0%, 0%, 0.3);
+}
+
+p {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.red {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+
+.blue {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+
+.green {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}/*# sourceMappingURL=style.css.map */
